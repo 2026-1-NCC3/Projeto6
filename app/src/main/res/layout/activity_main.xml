@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF">
-
+    
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -368,11 +368,14 @@
 
         <!-- Exercícios -->
         <LinearLayout
+            android:id="@+id/nav_exercicios"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true">
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"

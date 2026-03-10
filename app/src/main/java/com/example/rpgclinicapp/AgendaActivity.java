@@ -45,5 +45,16 @@ public class AgendaActivity extends AppCompatActivity {
                 }
             });
         }
+        // Barra de Nav - Ir para Exercícios
+        LinearLayout navExercicios = findViewById(R.id.nav_exercicios);
+        if (navExercicios != null) {
+            navExercicios.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(AgendaActivity.this, ExerciciosActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 }

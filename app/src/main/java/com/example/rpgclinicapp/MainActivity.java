@@ -24,5 +24,18 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+
+        // Configura o clique no botão "Exercícios" da barra inferior
+        android.widget.LinearLayout navExercicios = findViewById(R.id.nav_exercicios);
+        if (navExercicios != null) {
+            navExercicios.setOnClickListener(new android.view.View.OnClickListener() {
+                @Override
+                public void onClick(android.view.View v) {
+                    android.content.Intent intent = new android.content.Intent(MainActivity.this,
+                            ExerciciosActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 }

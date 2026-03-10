@@ -25,6 +25,9 @@
         <activity
             android:name=".AgendaActivity"
             android:exported="false" />
+        <activity
+            android:name=".ExerciciosActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
