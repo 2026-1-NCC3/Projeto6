@@ -116,6 +116,7 @@
 
                 <!-- Horário 1 (Selecionado) -->
                 <TextView
+                    android:id="@+id/tv_time_1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -131,6 +132,7 @@
 
                 <!-- Horário 2 -->
                 <TextView
+                    android:id="@+id/tv_time_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -146,6 +148,7 @@
 
                 <!-- Horário 3 -->
                 <TextView
+                    android:id="@+id/tv_time_3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -306,11 +309,14 @@
 
         <!-- Progresso -->
         <LinearLayout
+            android:id="@+id/nav_progresso"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true">
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"

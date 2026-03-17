@@ -37,5 +37,18 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+
+        // Configura o clique no botão "Progresso" da barra inferior
+        android.widget.LinearLayout navProgresso = findViewById(R.id.nav_progresso);
+        if (navProgresso != null) {
+            navProgresso.setOnClickListener(new android.view.View.OnClickListener() {
+                @Override
+                public void onClick(android.view.View v) {
+                    android.content.Intent intent = new android.content.Intent(MainActivity.this,
+                            ProgressoActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 }
