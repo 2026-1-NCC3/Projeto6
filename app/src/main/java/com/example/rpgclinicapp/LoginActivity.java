@@ -85,17 +85,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        android.widget.TextView tvCrieConta = findViewById(R.id.tv_criar_conta);
-        if (tvCrieConta != null) {
-            tvCrieConta.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(LoginActivity.this, CadastroActivity.class);
-                    startActivity(intent);
-                }
-            });
-        }
-
         android.widget.TextView tvEsqueciSenha = findViewById(R.id.tv_esqueci_senha);
         if (tvEsqueciSenha != null) {
             tvEsqueciSenha.setOnClickListener(new View.OnClickListener() {

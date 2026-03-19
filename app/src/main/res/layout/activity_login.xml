@@ -35,7 +35,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
         android:gravity="center"
-        android:text="Cadastre-se para acessar seu plano personalizado de recuperação."
+        android:text="Faça login para acessar seu plano personalizado de recuperação."
         android:textColor="#9E9E9E"
         android:textSize="10sp" />
 
@@ -208,25 +208,5 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Novo ao Maya Yamamoto App? "
-            android:textColor="#9E9E9E"
-            android:textSize="12sp" />
-        <TextView
-            android:id="@+id/tv_criar_conta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Crie uma conta"
-            android:textColor="#F07167"
-            android:textSize="12sp"
-            android:clickable="true"
-            android:focusable="true"/>
-    </LinearLayout>
+    <!-- Link Cadastro Removido -->
 </LinearLayout>
