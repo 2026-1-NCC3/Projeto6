@@ -1,9 +1,3 @@
-```sh
-Utilize o site <https://www.toptal.com/developers/gitignore> para gerar seu arquivo gitignore e apague este campo.
-
-Vide tutoriais do PI.
-```
-
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
@@ -14,9 +8,10 @@ Vide tutoriais do PI.
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/breno-sales-colaneri-231b59322/">Breno Sales Colaneri
+</a>, <a href="https://www.linkedin.com/in/rafaelchagas06/">Rafael Chagas</a>, <a href="https://www.linkedin.com/in/izabelliribeiro/">Izabelli Ribeiro</a>, <a href="https://www.linkedin.com/in/guilherme-le%C3%A3o-277053347/">Guilherme leão Rodrigues</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/marco-aurelio-lima-barbosa/">Marco Aurelio Lima Barbosa</a>, <a href="//www.linkedin.com/school/fecap/posts/?feedView=all">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/rodrigo-da-rosa-phd/">Rodrigo da Rosa
 
 ## Descrição
 
@@ -25,13 +20,37 @@ Vide tutoriais do PI.
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
+**Sobre o projeto:**
+<br>O projeto consiste no desenvolvimento de um sistema digital completo para a área de fisioterapia, voltado especificamente para o acompanhamento de pacientes que realizam tratamento de Reeducação Postural Global (RPG).
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+A solução será composta por três pilares principais: um aplicativo mobile para pacientes, um sistema web para profissionais de saúde e um backend integrado com banco de dados. O objetivo central é centralizar informações clínicas, melhorar a comunicação entre fisioterapeuta e paciente e otimizar o acompanhamento da evolução do tratamento<br>
+
+## 🛠 Estrutura de pastas
+
+- **Raiz**
+  - **Documentos**
+    - **Entrega 1**
+      - Projeto Interdisciplinar: Aplicativo Móvel
+      - Análise Descritiva de Dados
+      - Programação Orientada a Objetivos e Estrutura de Dados
+      - Programação para Dispositivos Móveis
+    - **Entrega 2**
+      - Projeto Interdisciplinar: Aplicativo Móvel
+      - Análise Descritiva de Dados
+      - Programação Orientada a Objetivos e Estrutura de Dados
+      - Programação para Dispositivos Móveis
+    - Documentação.docx
+  - **imagens**
+  - **src**
+    - **Entrega 1**
+      - Backend
+      - Frontend
+    - **Entrega 2**
+      - Backend
+      - Frontend
+
+---
+
 
 ## 🛠 Estrutura de pastas
 
