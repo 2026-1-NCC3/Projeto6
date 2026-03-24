@@ -92,6 +92,20 @@ public class AgendaActivity extends AppCompatActivity {
             });
         }
 
+        // Barra de Nav - Perfil
+        LinearLayout navPerfil = findViewById(R.id.nav_perfil);
+        if (navPerfil != null) {
+            navPerfil.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(AgendaActivity.this, MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                    intent.putExtra("OPEN_PROFILE", true);
+                    startActivity(intent);
+                }
+            });
+        }
+
         CalendarView calendarView = findViewById(R.id.calendarView);
         tvTime1 = findViewById(R.id.tv_time_1);
         tvTime2 = findViewById(R.id.tv_time_2);

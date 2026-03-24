@@ -58,5 +58,19 @@ public class ExerciciosActivity extends AppCompatActivity {
                 }
             });
         }
+        
+        // Barra de Nav - Perfil
+        LinearLayout navPerfil = findViewById(R.id.nav_perfil);
+        if (navPerfil != null) {
+            navPerfil.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(ExerciciosActivity.this, MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                    intent.putExtra("OPEN_PROFILE", true);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 }

@@ -62,6 +62,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, "Bem-vindo(a), " + loginResp.getUsuario().getNome(),
                                         Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                intent.putExtra("NOME_USUARIO", loginResp.getUsuario().getNome());
                                 startActivity(intent);
                                 finish();
                             } else {
@@ -85,26 +86,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        android.widget.TextView tvCrieConta = findViewById(R.id.tv_criar_conta);
-        if (tvCrieConta != null) {
-            tvCrieConta.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(LoginActivity.this, CadastroActivity.class);
-                    startActivity(intent);
-                }
-            });
-        }
-
-        android.widget.TextView tvEsqueciSenha = findViewById(R.id.tv_esqueci_senha);
-        if (tvEsqueciSenha != null) {
-            tvEsqueciSenha.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(LoginActivity.this, RecuperarSenhaActivity.class);
-                    startActivity(intent);
-                }
-            });
-        }
+        // Removed listeners for Cadastro and Recuperar Senha
     }
 }

@@ -63,5 +63,18 @@ public class ProgressoActivity extends AppCompatActivity {
         }
 
         // Progresso button is not clickable since we are already here.
+
+        LinearLayout navPerfil = findViewById(R.id.nav_perfil);
+        if (navPerfil != null) {
+            navPerfil.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(ProgressoActivity.this, MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                    intent.putExtra("OPEN_PROFILE", true);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 }
