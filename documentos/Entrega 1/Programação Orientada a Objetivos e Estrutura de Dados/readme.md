@@ -1,4 +1,4 @@
-# Diagrama de Classes – Projeto
+# Diagrama de Classes
 
 Este diagrama representa a estrutura do sistema de gerenciamento de pacientes, desenvolvido utilizando React e Supabase.
 
