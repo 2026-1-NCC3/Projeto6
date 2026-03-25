@@ -8,6 +8,12 @@ const app = express();
 app.use(cors()); // Permite requisições de outras origens (Ex: Android Emuladores)
 app.use(express.json()); // Lê todo o tráfego de chegada em formato JSON
 
+// Logger visual para a avaliação do professor (Mostra tudo que o app pediu)
+app.use((req, res, next) => {
+    console.log(`[INFO] O App está conversando com a API: ${req.method} ${req.url}`);
+    next();
+});
+
 // Rotas Básicas
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/paciente', require('./routes/pacienteRoutes'));
