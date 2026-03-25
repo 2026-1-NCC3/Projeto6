@@ -1,25 +1,48 @@
-# Diagrama de Classes
+# 📊 Diagrama de Classes
 
-Este diagrama representa a estrutura do sistema de gerenciamento de pacientes, desenvolvido utilizando React e Supabase.
+Este documento apresenta o diagrama de classes do sistema de gerenciamento de pacientes, desenvolvido com React e integração com Supabase.
 
-## 📌 Descrição
+---
 
-O sistema permite realizar operações de CRUD (Create, Read, Update, Delete), ou seja:
+## 📌 Descrição do Sistema
 
-- Visualizar pacientes
-- Adicionar novos pacientes
-- Editar informações de pacientes existentes
-- Deletar pacientes
+O sistema tem como objetivo gerenciar informações de pacientes por meio de operações básicas de CRUD:
 
-## 🧠 Estrutura do Sistema
+- ➕ Criar (adicionar novos pacientes)
+- 🔍 Ler (visualizar pacientes cadastrados)
+- ✏️ Atualizar (editar informações)
+- ❌ Deletar (remover pacientes)
 
-A aplicação segue um modelo simplificado de Programação Orientada a Objetos, onde:
+---
 
-- **Pacientes (Componente React)**: responsável pela interface e controle das operações
-- **Usuario (Paciente)**: representa os dados do paciente no sistema
+## 🧠 Estrutura e Modelagem
 
-A lógica de controle está acoplada ao componente, seguindo um padrão comum em aplicações React que utilizam serviços externos (Supabase).
+A aplicação segue uma abordagem simplificada de Programação Orientada a Objetos, organizada da seguinte forma:
+
+- **Componente Pacientes (React)**  
+  Responsável pela interface do usuário e controle das operações.
+
+- **Entidade Paciente (Usuário)**  
+  Representa os dados armazenados no sistema.
+
+A lógica da aplicação está concentrada no componente principal, utilizando o Supabase como serviço externo para persistência de dados.
+
+---
 
 ## 📊 Diagrama de Classes
 
-![Preview](./preview.png)
+Abaixo está a representação visual da estrutura do sistema:
+
+![Preview do Diagrama](./preview.png)
+
+---
+
+## 📁 Arquivos Relacionados
+
+- 📄 Diagrama completo: `DiagramaPacientes.drawio.pdf`
+
+---
+
+## 📝 Observação
+
+Este material foi desenvolvido como parte da entrega da disciplina, com foco na representação estrutural do sistema e aplicação dos conceitos de orientação a objetos.
