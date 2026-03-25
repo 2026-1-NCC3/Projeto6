@@ -22,4 +22,4 @@ A lógica de controle está acoplada ao componente, seguindo um padrão comum em
 
 ## 📊 Diagrama de Classes
 
-![Diagrama de Classes](DiagramaUsuarios.drawio.pdf)
+![Preview](./preview.png)
