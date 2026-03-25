@@ -4,14 +4,22 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+---
 
-## Nome do Grupo
+# 💡 Projeto AlinhaTech  
+### **Maya Yamamoto RPG**
 
-## Integrantes: <a href="https://www.linkedin.com/in/breno-sales-colaneri-231b59322/">Breno Sales Colaneri
-</a>, <a href="https://www.linkedin.com/in/rafaelchagas06/">Rafael Chagas</a>, <a href="https://www.linkedin.com/in/izabelliribeiro/">Izabelli Ribeiro</a>, <a href="https://www.linkedin.com/in/guilherme-le%C3%A3o-277053347/">Guilherme leão Rodrigues</a>
+---
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/marco-aurelio-lima-barbosa/">Marco Aurelio Lima Barbosa</a>, <a href="//www.linkedin.com/school/fecap/posts/?feedView=all">Katia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/rodrigo-da-rosa-phd/">Rodrigo da Rosa
+## 👥 Integrantes
+
+- [Breno Sales Colaneri](https://www.linkedin.com/in/breno-sales-colaneri-231b59322/)  
+- [Guilherme Leão Rodrigues](https://www.linkedin.com/in/guilherme-le%C3%A3o-277053347/)  
+- [Izabelli Ribeiro dos Santos](https://www.linkedin.com/in/izabelliribeiro/)  
+- [Rafael Chagas Silva](https://www.linkedin.com/in/rafael-chagas-0648a6349/)
+
+## 👨‍🏫 Professores Orientadores
+<a href="https://www.linkedin.com/school/fecap/posts/?feedView=all">Kátia Milani Lara Bossi</a>, <a href="https://www.linkedin.com/in/marco-aurelio-lima-barbosa/">Marco Aurelio Lima Barbosa</a>, <a href="https://www.linkedin.com/in/rodrigo-da-rosa-phd/">Rodrigo da Rosa</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 
 ## Descrição
 
